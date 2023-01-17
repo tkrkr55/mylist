@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'KyoboHandwriting2020A';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_bar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  background:url('https://img.freepik.com/free-vector/crumpled-paper-texture-realisric-crease-sheet_107791-12831.jpg?auto=format&h=200');
+  color:rgb(158, 141, 141);
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.modal{
+  margin-top:-200px;
+  margin-left:700px;
+  padding:20px;
+  width: 600px;
+  height: 400px;
+  padding:20px 10px;
+  background:#fff;
+  border:2px solid #666;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.정렬{
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 50px;
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  
+ 
+}
+
+
+.정렬:active{
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.10);
+  transform: translateY(2px);
+}
+
+.modal img{
+  width: 30px;
+}
+
+.modaltext{
+  margin-top:50px;
+}
+
+.modaltext p {
+  width: 100%;
+  background: white;
+  height: 40px;
+}
+
+.modal_layer{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.5);
+  z-index:-1;
+}
+
+.좋아요{
+  margin-left:10px;
+}
+
+.list_like{
+  display: flex;
+  cursor:pointer;
+}
+
+.list{
+  margin:20px;
+  border-bottom:1px dotted rgb(130, 112, 112);
 }

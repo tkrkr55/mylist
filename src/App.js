@@ -12,7 +12,7 @@ function App() {
     <div>
     <NavBar/>
       <Home />
-      
+     
     </div>
   )
  

@@ -29,14 +29,15 @@
 
 
 .modal{
-  margin-top:-500px;
-  margin-left:700px;
+  margin-top:-600px;
+  margin-left:400px;
   padding:20px;
   width: 600px;
   height: 400px;
   padding:20px 10px;
   background:#fff;
   border:2px solid #666;
+
 }
 
 .modal_list{
@@ -104,7 +105,7 @@
   margin:20px;
   border-bottom:1px dotted rgb(130, 112, 112);
 }
-input{
+.homeinput{
   margin-top:20px;
   margin-left:20px;
   width: 300px;
@@ -115,6 +116,14 @@ input{
   outline: none;
   padding-left: 10px;
   background-color: rgb(233, 233, 233);
+}
+
+.modalinput{
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: none;
+  
 }
 
 .day{
@@ -133,4 +142,9 @@ input{
 .modlabtn:active{
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.10);
   transform: translateY(2px);
+}
+
+.엑스{
+  background-color: #fff;
+  border: 1px solid rgb(209, 197, 197);
 }
